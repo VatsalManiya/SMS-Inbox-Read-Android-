@@ -54,7 +54,7 @@ public class MessageBox extends Activity implements OnClickListener {
 		if (v == btnInbox) {
 
 			// Create Inbox box URI
-			Uri inboxURI = Uri.parse("content://sms/inbox");
+			Uri inboxURI = Uri.parse("content://sms/");
 
 			// List required columns
 			String[] reqCols = new String[] { "_id", "address", "body" };
